@@ -1,0 +1,28 @@
+#hero {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../assets/img/back1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: blur(0px) brightness(103%) contrast(82%);
+  opacity: 1;
+}
+
+.1 {
+  height: 50px;
+}
+
+#promo {
+}
+
+div {
+}
+
+#po {
+}
+
+#footerpad {
+  background-color: rgb(255,255,255,0);
+}
+
