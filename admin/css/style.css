@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+i {
+  margin-right: 10px;
+}
+/*----------bootstrap-navbar-css------------*/
+.navbar-logo {
+  padding: 15px;
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+
+.navbar-logo:hover {
+  color: #ddd !important;
+}
+.navbar-mainbg {
+  background-color: #5161ce !important;
+  padding: 0px;
+}
+
+#navbarSupportedContent ul li a {
+  text-decoration: none;
+  font-size: 15px;
+  display: block;
+  padding: 20px 20px;
+  transition-duration: 0.6s;
+  transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  position: relative;
+}
+
+.fa {
+  transition: transform 0.6s ease-in-out;
+}
+.fa:hover {
+  transform: rotate(360deg);
+}
+
+.card {
+  box-shadow: 12px 12px 14px 0 #888;
+  border-radius: 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 0 2px 0 #888;
+  border-radius: 5px;
+}
+
+#c1 {
+  background-color: #9cf6f6;
+}
+#c2 {
+  background-color: #f7f06d;
+}
+#c3 {
+  background-color: #06d6a0;
+}
+
+.alert {
+  position: fixed;
+  right: 10px;
+  bottom: 5px;
+}
+
+.fixTableHead {
+	overflow-y: auto;
+	height: 57vh;
+  }
+  .fixTableHead::-webkit-scrollbar {
+	display: none;
+  }
+  .fixTableHead thead th {
+	position: sticky;
+	top: 0;
+  }
