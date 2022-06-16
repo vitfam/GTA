@@ -1,0 +1,69 @@
+a:focus, a:hover {
+  color: #0085A1;
+}
+
+.flex-grow-1 {
+}
+
+#pom1 {
+  text-align: center;
+  padding: 40px;
+  background-image: url(../../assets/img/c2.jpg);
+  background-size: cover;
+}
+
+#prom {
+  text-align: center;
+  padding: 40px;
+  background-image: url(../../assets/img/car.jpg);
+  background-size: cover;
+}
+
+#pom1 .jumbotron {
+  border-radius: 20px;
+  padding: 40px;
+  background-color: rgb(255,255,255,0.6);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#prom .jumbotron {
+  border-radius: 20px;
+  padding: 40px;
+  background-color: rgb(255,255,255,0.6);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+@media (min-width: 991px) {
+  #prom {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 991px) {
+  #pom1 .jumbotron {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 991px) {
+  #prom .jumbotron {
+    padding: 20px;
+  }
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+  max-width: 800px;
+  text-align: center;
+  padding: 60px 0;
+  margin: 0 auto;
+}
+
+.col {
+}
+
+.col.offset-0.text-left {
+  column-count: 4;
+}
+

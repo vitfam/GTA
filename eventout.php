@@ -6,10 +6,9 @@ if(!isset($_SESSION['user']))
 }
 if(isset($_SESSION['user']) && $_SESSION['user']!=0)
 {
-    header("Location: eventout.php");
+    header("Location: eventin.php");
 }
 ?>
-
 <!DOCTYPE html>
 <html>
 
@@ -30,15 +29,16 @@ if(isset($_SESSION['user']) && $_SESSION['user']!=0)
     <link rel="stylesheet" href="assets/css/untitled.css">
 </head>
 
-<body class="flex-grow-1" style="background-image: url(&quot;assets/img/hero-bg.png&quot;);background-size: cover;background-repeat: no-repeat;background-position: center;">
-    <?php require_once "navbar.php"; ?>
-    <section style="padding: 93px;">
-        <div class="row text-center align-items-center">
-            <div class="col">
-                <h1 style="padding: 27px;">Welcome to VITFAM Events</h1><button class="btn btn-primary" type="button" onclick="location.href='eventout.php'">Check Out our ongoing event</button></div>
+<body style="background-size: cover;background-repeat: no-repeat;background-image: url(&quot;assets/img/ways-to-make-website-more-professional.jpg&quot;);">
+<?php require_once "navbar.php"; ?>
+    <div id="prom">
+        <div class="jumbotron">
+            <h1>Grand Thrift Auto</h1>
+            <p></p>
+            <p><a class="btn btn-primary" role="button" href="login.php">Login to Enter the Event</a></p>
         </div>
-    </section>
-    <?php require_once "footer.php";?>
+    </div>
+    <?php require_once "footer.php";?> 
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
